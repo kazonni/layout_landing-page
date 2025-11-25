@@ -10,13 +10,17 @@
 
   &__icons {
     display: flex;
-    gap: 24px;
+    gap: 27px;
+
+    @include on-tablet {
+      gap: 36px;
+    }
   }
 
   &__logo {
     display: flex;
 
-    @include hover(transform, scale(1.2));
+    @include hover(transform, scale(1.05));
 
     @include on-tablet {
       width: 187px;

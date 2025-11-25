@@ -9,8 +9,8 @@
   @include hover(transform, scale(1.2));
 
   @include on-tablet {
-    height: $icon-mobile-height;
-    width: $icon-mobile-weight;
+    height: $icon-tablet-height;
+    width: $icon-tablet-weight;
   }
 
   &--phone {
@@ -26,6 +26,6 @@
   }
 
   &--close {
-    background-image: url(../icons/icon-close.svg);
+    background-image: url(../icons/icon-close.png);
   }
 }
